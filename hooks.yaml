@@ -1,0 +1,6 @@
+-   id: flake8
+    name: flake8
+    description: This hook runs flake8.
+    entry: flake8 --diff
+    language: python
+    files: \.py$
