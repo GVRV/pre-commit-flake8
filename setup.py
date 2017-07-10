@@ -12,4 +12,5 @@ setup(
         'flake8-polyfill==1.0.1',
         'flake8-string-format==0.2.3'
     ],
+    scripts=['scripts/flake8-run.sh']
 )

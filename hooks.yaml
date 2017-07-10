@@ -1,7 +1,7 @@
 -   id: flake8
     name: flake8
     description: This hook runs flake8.
-    entry: git diff HEAD | flake8 --diff
+    entry: flake8-run.sh
     language: python
     files: \.py$
     pass_filenames: false
