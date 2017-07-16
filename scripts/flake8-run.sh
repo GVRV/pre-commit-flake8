@@ -1,2 +1,2 @@
 #!/bin/sh
-git diff HEAD | flake8 --diff
+git diff HEAD *.py | flake8 --diff
