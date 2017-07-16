@@ -1,2 +1,2 @@
 #!/bin/sh
-git diff --cached **/*.py | flake8 --diff
+git diff --cached -- '*.py' | flake8 --diff
